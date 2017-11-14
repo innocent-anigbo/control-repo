@@ -11,10 +11,10 @@ mod "puppetlabs/ntp",	   '4.2.0'
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 mod 'motd',
-   :git    => 'https://github.com/innocent-anigbo/puppet-module-motd.git',
+   :git    => 'https://github.com/innocent-anigbo/puppet-module-motd.git'
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
-mod 'tomcat',
-   :git    => 'https://github.com/innocent-anigbo/puppet-module-tomcat.git',
+#mod 'puppet-module-tomcat',
+#   :git    => 'https://github.com/innocent-anigbo/puppet-module-tomcat'
 
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
