@@ -2,10 +2,10 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
-mod "puppetlabs/mysql",     
-mod "puppetlabs/apache",   
-mod "puppetlabs/haproxy",
-mod "puppetlabs/ntp",	'4.2.0'
+mod "puppetlabs/mysql",    '5.1.0' 
+mod "puppetlabs/apache",   '2.3.0'
+mod "puppetlabs/haproxy",  '1.1.0'
+mod "puppetlabs/ntp",	   '4.2.0'
 #mod "puppetlabs/concat",      '2.1.0'
 
 # Modules from Git
