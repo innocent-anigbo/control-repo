@@ -13,8 +13,8 @@ mod "puppetlabs/ntp",	   '4.2.0'
 mod 'motd',
    :git    => 'https://github.com/innocent-anigbo/puppet-module-motd.git'
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
-#mod 'puppet-module-tomcat',
-#   :git    => 'https://github.com/innocent-anigbo/puppet-module-tomcat'
+mod 'tomcat',
+   :git    => 'https://github.com/innocent-anigbo/puppet-module-tomcat.git'
 
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
