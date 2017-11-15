@@ -1,4 +1,4 @@
 ---
-tomcat::xms: "128"
-tomcat::xmx: "828"
-tomcat::maxpermsize: "128"
+tomcat::xms: "128m"
+tomcat::xmx: "828m"
+tomcat::maxpermsize: "128m"
