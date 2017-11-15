@@ -1,4 +1,4 @@
-
+hiera_include('clases')
 Package {
       allow_virtual => true,
     }
