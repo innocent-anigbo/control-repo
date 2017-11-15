@@ -3,7 +3,7 @@ node 'kiki-01.mykezy.com' {
   class {'::tomcat':
        xms => '53m',
        xmx => '801m',
-       user => 'boy',
+       user => 'tomcat',
     }       
 }
 
