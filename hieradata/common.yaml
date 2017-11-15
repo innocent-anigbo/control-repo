@@ -1,2 +1,4 @@
 ---
-message: "This node is using common data"
+tomcat::xms: "128"
+tomcat::xmx: "828"
+tomcat::maxpermsize: "128"
