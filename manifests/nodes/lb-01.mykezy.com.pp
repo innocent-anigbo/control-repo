@@ -7,15 +7,15 @@ node 'lb-01.mykezy.com' {
   }
   haproxy::balancermember { 'master00':
     listening_service => 'puppet00',
-    server_names      => 'lb-01.mykezy.com',
-    ipaddresses       => 'lb-01.mykezy.com',
+    server_names      => 'master00.example.com',
+    ipaddresses       => '10.0.0.10',
     ports             => '8140',
     options           => 'check',
   }
   haproxy::balancermember { 'master01':
     listening_service => 'puppet00',
-    server_names      => 'lbl-01.mykezy.com',
-    ipaddresses       => 'lbl-01.mykezy.com',
+    server_names      => 'master01.example.com',
+    ipaddresses       => '10.0.0.11',
     ports             => '8140',
     options           => 'check',
   }
