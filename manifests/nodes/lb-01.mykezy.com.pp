@@ -1,22 +1,22 @@
 node 'lb-01.mykezy.com' {
   include ::haproxy
-  haproxy::listen { 'puppet00':
+  haproxy::listen { 'app':
     collect_exported => false,
     ipaddress        => $::ipaddress,
-    ports            => '8140',
+    ports            => '80',
   }
-  haproxy::balancermember { 'master00':
-    listening_service => 'puppet00',
-    server_names      => 'master00.example.com',
-    ipaddresses       => '10.0.0.10',
-    ports             => '8140',
+  haproxy::balancermember { 'app1':
+    listening_service => 'app',
+    server_names      => 'app1.example.org',
+    ipaddresses       => 'app1',
+    ports             => '8080',
     options           => 'check',
   }
-  haproxy::balancermember { 'master01':
-    listening_service => 'puppet00',
-    server_names      => 'master01.example.com',
-    ipaddresses       => '10.0.0.11',
-    ports             => '8140',
+  haproxy::balancermember { 'app2':
+    listening_service => 'app',
+    server_names      => 'app2.example.org',
+    ipaddresses       => 'app2',
+    ports             => '8080',
     options           => 'check',
   }
 }
