@@ -18,7 +18,7 @@ mod 'motd',
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 mod 'tomcat',
    :git    => 'https://github.com/innocent-anigbo/puppet-module-tomcat.git'
-mod 'hello-define',
+mod 'hellodefine',
    :git    => 'https://github.com/innocent-anigbo/puppet-module-hellodefine.git'
 
 
