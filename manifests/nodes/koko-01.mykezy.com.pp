@@ -1,6 +1,5 @@
 node 'koko-01.mykezy.com' {
        include motd
-        include hello-define
   class {'::tomcat':
        xms => '53m',
        xmx => '801m',
