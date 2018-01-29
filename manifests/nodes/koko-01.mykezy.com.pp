@@ -2,7 +2,7 @@ node 'koko-01.mykezy.com' {
        include motd
   class {'::tomcat':
        xms => '53m',
-       xmx => '801m',
+       xmx => '824m',
        user => 'tomcat',
     }       
   class { 'apache':                # use the "apache" module
