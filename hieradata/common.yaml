@@ -1,2 +1,6 @@
 ---
-message: "This node is using common data"
+tomcat::xms: "127m"
+tomcat::xmx: "528m"
+tomcat::maxpermsize: "128m"
+clases:
+ - motd

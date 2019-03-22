@@ -2,8 +2,8 @@ node 'koko-01.mykezy.com' {
        include motd
   class {'::tomcat':
        xms => '53m',
-       xmx => '801m',
-       user => 'boy',
+       xmx => '824m',
+       user => 'tomcat',
     }       
   class { 'apache':                # use the "apache" module
           default_vhost => false,        # don't use the default vhost
